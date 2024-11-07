@@ -1,7 +1,5 @@
 # aps7_alglin
 
-readme_content = """
-
 # Jogo da Forca Automático com Teoria da Informação
 
 Este projeto implementa um jogador automático para o jogo de forca, utilizando conceitos de **teoria da informação** e **análise de frequência** para otimizar suas tentativas de adivinhação. O jogador possui 5 vidas e tenta maximizar suas chances de vitória reduzindo o vocabulário de palavras possíveis a cada tentativa com base na informação obtida.
@@ -26,11 +24,3 @@ A estratégia do jogador se baseia principalmente em **análise de frequência**
 
 Os conceitos de **análise de frequência** e **filtragem incremental** são aplicados diretamente para otimizar a eficácia do jogador, aumentando as chances de acertar a palavra secreta com o mínimo de tentativas erradas. Essa abordagem demonstra como métodos de **teoria da informação** podem ser aplicados em estratégias de jogos clássicos para melhorar decisões com base em dados e otimização.
 """
-
-# Save the README content to a file
-
-readme_path = "/mnt/data/README.md"
-with open(readme_path, "w") as readme_file:
-readme_file.write(readme_content)
-
-readme_path
